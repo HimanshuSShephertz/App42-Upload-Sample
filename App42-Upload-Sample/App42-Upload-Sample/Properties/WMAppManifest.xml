@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
-  <App xmlns="" ProductID="{7d02e8c7-62c7-4ea6-88e7-72c5a70894eb}" Title="App42_Upload_Sample" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal"  Author="App42_Upload_Sample author" Description="Sample description" Publisher="App42_Upload_Sample">
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.0">
+  <App xmlns="" ProductID="{1c1b9196-aaf4-4378-8272-f70a2fe4a5cb}" Title="Sample" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal"  Author="Sample author" Description="Sample description" Publisher="Sample">
     <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_GAMERSERVICES"/>
@@ -15,19 +15,16 @@
       <Capability Name="ID_CAP_PUSH_NOTIFICATION"/>
       <Capability Name="ID_CAP_SENSORS"/>
       <Capability Name="ID_CAP_WEBBROWSERCOMPONENT"/>
-      <Capability Name="ID_CAP_ISV_CAMERA"/>
-      <Capability Name="ID_CAP_CONTACTS"/>
-      <Capability Name="ID_CAP_APPOINTMENTS"/>
     </Capabilities>
     <Tasks>
       <DefaultTask  Name ="_default" NavigationPage="MainPage.xaml"/>
     </Tasks>
     <Tokens>
-      <PrimaryToken TokenID="App42_Upload_SampleToken" TaskName="_default">
+      <PrimaryToken TokenID="SampleToken" TaskName="_default">
         <TemplateType5>
           <BackgroundImageURI IsRelative="true" IsResource="false">Background.png</BackgroundImageURI>
           <Count>0</Count>
-          <Title>App42_Upload_Sample</Title>
+          <Title>Sample</Title>
         </TemplateType5>
       </PrimaryToken>
     </Tokens>
